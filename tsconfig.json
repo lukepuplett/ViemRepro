@@ -1,0 +1,27 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["node_modules/*"],
+      "lib/*": ["node_modules/*"]
+    },
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "allowUnusedLabels": true,
+    "noEmitOnError": true,
+    "lib": ["es6", "dom"]
+  },
+  "include": ["ts/**/*"],
+  "exclude": ["node_modules", "wwwroot"]
+}
